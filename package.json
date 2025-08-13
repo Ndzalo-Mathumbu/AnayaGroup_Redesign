@@ -1,0 +1,34 @@
+{
+  "name": "anayagroup_redesign",
+  "version": "1.0.0",
+  "description": "Anaya Group website redesign project: segmented layout for Agriculture, Build, and Estates divisions using Parcel bundler.",
+  "homepage": "https://github.com/Ndzalo-Mathumbu/AnayaGroup_Redesign#readme",
+  "bugs": {
+    "url": "https://github.com/Ndzalo-Mathumbu/AnayaGroup_Redesign/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ndzalo-Mathumbu/AnayaGroup_Redesign.git"
+  },
+  "keywords": [
+    "Anaya Group",
+    "website redesign",
+    "Agriculture",
+    "Build",
+    "Estates",
+    "DRC",
+    "Parcel",
+    "Frontend"
+  ],
+  "license": "ISC",
+  "author": "Ndzalo NK Mathumbu",
+  "type": "module",
+  "scripts": {
+    "start": "parcel main-site/index.html anaya-agriculture/index.html anaya-build/index.html anaya-estates/index.html",
+    "build": "parcel build main-site/index.html anaya-agriculture/index.html anaya-build/index.html anaya-estates/index.html",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "parcel": "^2.10.0"
+  }
+}

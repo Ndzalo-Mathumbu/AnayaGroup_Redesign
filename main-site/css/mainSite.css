@@ -1,0 +1,198 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Cormorant Garamond", serif;
+}
+.video__section--1 {
+}
+
+.section__1--hero {
+  position: relative;
+  width: 100%;
+  height: 95vh;
+  overflow: hidden;
+  border-bottom: 3px solid transparent; /* required */
+  border-image: linear-gradient(to right, #ffa500, #0b640b) 5;
+  margin-bottom: 150px;
+}
+
+.section__1--hero video {
+  /* display: none; */
+  position: absolute;
+  z-index: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  overflow: hidden;
+}
+.navbar {
+  position: relative;
+  z-index: 10;
+  transition: transform 1s;
+  background-color: rgba(0, 0, 0, 0.1);
+}
+.navbar:hover {
+  background-color: rgba(0, 0, 0, 0.2); /* semi-transparent blue */
+  backdrop-filter: blur(10px); /* adds glassy blur effect */
+  border-radius: 5px;
+  transition: all 1s ease-in-out;
+  transform: scale(0.9);
+}
+.logo {
+  width: 15%;
+  height: 15%;
+  padding: 10px;
+}
+.nav__list {
+  display: flex;
+  position: absolute;
+  gap: 2em;
+  list-style: none;
+  bottom: 36%;
+  left: 42%;
+  font-size: x-large;
+}
+.navbar__item {
+  text-decoration: none;
+  color: white;
+}
+.section__2--about,
+hr {
+  position: relative;
+  z-index: 10;
+}
+.hr__line--1 {
+  color: red;
+  display: block;
+}
+.section__2--about {
+  display: flex;
+  gap: 2em;
+  transform: scale(0.95);
+  margin-bottom: 65px;
+}
+.section__2--picture {
+  border-radius: 5px;
+  width: 30%;
+  height: 50vh;
+  box-shadow: 1px 1px 5px 1px rgb(178, 178, 178);
+}
+.aboutUS__heading {
+  position: absolute;
+  bottom: 100%;
+}
+.boutUS__heading--h1 {
+  position: relative;
+  margin-bottom: 5px;
+  font-size: 195%;
+  font-weight: bold;
+  background: linear-gradient(135deg, #ffa500, #045304 45%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.boutUS__heading--h2 {
+  position: relative;
+  margin-bottom: 30px;
+  color: rgb(55, 56, 61);
+}
+.about--us {
+  display: flex;
+  border-radius: 5px;
+  background-color: white;
+  box-shadow: 1px 1px 5px 1px rgb(178, 178, 178);
+  width: 70vw;
+  height: 50vh;
+  color: rgb(55, 56, 61);
+  font-size: 140%;
+  line-height: 1.4;
+  padding: 25px;
+  z-index: -1;
+}
+
+.highlight {
+  position: relative;
+  color: white;
+  margin: 3px;
+}
+
+.highlight::after {
+  display: block;
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+  opacity: 0.7;
+  transform: scale(1.07, 1.05) skewX(-17deg);
+  background: linear-gradient(to top left, #045304 25%, #ffa500);
+
+  margin: 1px;
+}
+
+.__section__3--divisions {
+  position: relative;
+  display: flex;
+  top: 150%;
+  right: 1.5%;
+  transform: scale(0.95);
+  gap: 2em;
+}
+.__section__3--agriculture {
+  background-color: white;
+  background-size: cover;
+  background-position: center;
+  background-image: url("https://vlsci.com/wp-content/uploads/2023/07/shutterstock_243102907-scaled.jpg");
+}
+.__section__3--Build {
+  background-color: white;
+  background-position: center;
+  background-image: url("https://t3.ftcdn.net/jpg/04/96/48/04/360_F_496480434_VtvDbJ3I7u3UHi2pkQuaTahV2TegLfCd.jpg");
+}
+.__section__3--Estates {
+  background-color: white;
+  background-position: center;
+  background-image: url("https://img.freepik.com/premium-photo/hand-giving-metal-house-keys-mini-house_488220-9699.jpg?semt=ais_hybrid&w=740&q=80");
+}
+.__section__3--agriculture_details {
+  background-color: rgba(0, 0, 0, 0.2); /* semi-transparent blue */
+  backdrop-filter: blur(2px);
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+  position: relative;
+  bottom: -70%;
+  height: 30%;
+  padding: 2px;
+  /* left: 0.2px; */
+}
+.card {
+  margin-top: 65px;
+  width: 60%;
+  height: 55vh;
+  border-radius: 5px;
+  box-shadow: 1px 1px 5px 1px rgb(178, 178, 178);
+}
+
+.card--heading {
+  color: white;
+  font-weight: bold;
+}
+.card__paragraph {
+  color: white;
+}
+.learn__more--title {
+  color: white;
+  font-weight: bold;
+  text-decoration: underline;
+  text-underline-offset: 2.5px;
+}
+
+.three__divisions {
+  position: relative;
+  left: 10%;
+}
