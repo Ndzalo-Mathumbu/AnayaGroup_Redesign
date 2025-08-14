@@ -6,6 +6,7 @@
 
 body {
   font-family: "Cormorant Garamond", serif;
+  /* overflow-x: hidden; */
 }
 .video__section--1 {
 }
@@ -171,7 +172,8 @@ hr {
   /* left: 0.2px; */
 }
 .card {
-  margin-top: 65px;
+  margin-top: 40px;
+  margin-bottom: 70px;
   width: 60%;
   height: 55vh;
   border-radius: 5px;
@@ -192,7 +194,218 @@ hr {
   text-underline-offset: 2.5px;
 }
 
-.three__divisions {
+/* .three__divisions {
   position: relative;
   left: 10%;
+} */
+
+.section__3--headindings {
+  position: relative;
+  left: 3.4%;
+  width: 48%;
+  bottom: 30%;
+  margin-top: 40px;
+}
+.section__3--subheading {
+  color: rgb(55, 56, 61);
+  font-size: 140%;
+  font-weight: bold;
+}
+
+.section__2 {
+  margin-bottom: 90px;
+}
+
+.section__2--heading {
+}
+.heading__1--pillars {
+  position: relative;
+  font-size: 195%;
+  font-weight: bold;
+  background: linear-gradient(135deg, #ffa500 3%, #045304);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  position: relative;
+  right: 39%;
+}
+.line--brake__subheading {
+  position: relative;
+  right: 63%;
+}
+.sub--heading__1 {
+  color: rgb(55, 56, 61);
+  font-size: 140%;
+  font-weight: bold;
+  position: relative;
+  right: 20.5%;
+}
+.tabs__container {
+  display: flex;
+  position: relative;
+  align-items: center;
+  width: 85%;
+  height: 65vh;
+  left: 0;
+  text-align: start;
+  background-color: white;
+  color: rgb(55, 56, 61);
+  font-size: 145%;
+  line-height: 1.2;
+  padding: 20px 20px 20px 20px;
+  margin-top: 90px;
+  border-radius: 5px;
+  z-index: 1;
+  /* overflow: hidden; */
+  box-shadow: 1px 1px 5px 1px rgb(55, 56, 61); /* or any solid color */
+}
+.text__tab--container--1 {
+  /* position: absolute; */
+  opacity: 1;
+  z-index: 12;
+  position: relative;
+  height: 20%;
+  padding: 0px;
+}
+.text__tab--container--2 {
+  /* position: absolute; */
+  opacity: 1;
+  z-index: 10;
+  line-height: 1.5;
+}
+.text__tab--container--3 {
+  /* position: absolute; */
+  opacity: 1;
+}
+.__mission-lists {
+}
+.__mission-items {
+  padding-bottom: 12px;
+}
+/* .text__tab--container--2::first-line {
+  line-height: 3;
+  font-size: 115%;
+  font-weight: 600;
+  white-space: pre-wrap;
+  color: #ff0000;
+} */
+/* .text__tab--container--3::first-line {
+  line-height: 3;
+  font-size: 113.9%;
+  font-weight: 600;
+  color: #ff0000;
+} */
+
+/* .bi-trophy-wrapper {
+  display: none;
+  background: linear-gradient(to top right, #0416a194 35%, #ff0000);
+  padding: 10px;
+  border-radius: 50%;
+  align-items: center;
+  justify-content: center;
+  width: 26%;
+  height: 31%;
+  backdrop-filter: blur(10px);
+  margin-right: 10px;
+  position: relative;
+  right: 2%;
+  bottom: 10%;
+} */
+
+/* .bi-trophy {
+  display: none;
+  color: goldenrod;
+  position: relative;
+  left: 4%;
+  top: 3%;
+  font-size: 24px;
+  width: 50px;
+  height: 50px;
+  padding: 10px;
+} */
+/* .bi-ubuntu-wrapper {
+  display: none;
+  background: linear-gradient(to top right, #0416a194 35%, #ff0000);
+  padding: 10px;
+  border-radius: 50%;
+  align-items: center;
+  justify-content: center;
+  width: 38%;
+  height: 31%;
+  backdrop-filter: blur(10px);
+  margin-right: 10px;
+  position: relative;
+  right: 2%;
+  bottom: 10%;
+}
+
+.bi-ubuntu {
+  display: none;
+  color: white;
+  position: relative;
+  left: 2%;
+  top: 8%;
+  font-size: 24px;
+  width: 50px;
+  height: 50px;
+} */
+
+/* .bi-book-wrapper {
+  display: none;
+  background: linear-gradient(to top right, #0416a194 35%, #ff0000);
+  padding: 10px;
+  border-radius: 50%;
+  align-items: center;
+  justify-content: center;
+  width: 40%;
+  height: 31%;
+  backdrop-filter: blur(10px);
+  margin-right: 10px;
+  position: relative;
+  right: 2%;
+  bottom: 10%;
+}
+
+.bi-book {
+  display: none;
+  color: white;
+  position: relative;
+  left: 2.6%;
+  top: 5%;
+  font-size: 24px;
+  width: 50px;
+  height: 50px;
+} */
+
+/* .text__tab--container--1::first-line {
+  line-height: 3;
+  font-size: 50%;
+  font-weight: 600;
+  color: #ff0000;
+} */
+
+.tab__btns {
+  display: flex;
+  position: absolute;
+  bottom: 92%;
+  left: 13%;
+  gap: 2em;
+}
+
+.btn__intab--container {
+  width: 18vw;
+  height: 10vh;
+  background-color: #045304;
+  border: none;
+  border-radius: 40px;
+  color: white;
+  font-size: medium;
+  font-weight: 400;
+}
+.btn__intab--animation {
+  transform: translateY(-20%);
+  transition: all 0.5s ease;
+}
+.btn__intab--animationRemove {
+  transform: translateY(0);
+  transition: all 0.5s ease;
 }

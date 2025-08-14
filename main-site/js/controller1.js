@@ -1,6 +1,8 @@
-import { slideIn } from "./view1.js";
+import { tabButtonAnimation } from "./view1.js";
+import { renderTabTexts } from "./view1.js";
 
 const init = function () {
-  slideIn();
+  tabButtonAnimation();
+  renderTabTexts();
 };
 init();
