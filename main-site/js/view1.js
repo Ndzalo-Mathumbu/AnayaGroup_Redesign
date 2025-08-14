@@ -13,7 +13,9 @@ const sportsIcon = document.querySelector(".bi-trophy");
 const bookWrapper = document.querySelector(".bi-book-wrapper");
 const ubuntuWrapper = document.querySelector(".bi-ubuntu-wrapper");
 const trophyWrapper = document.querySelector(".bi-trophy-wrapper");
-
+const firstSentence = document.querySelector(".first__sentence");
+const secondSentance = document.querySelector(".second__sentance");
+const sectionSlogen = document.querySelector(".section__slogen");
 const tabButtons = [ubuntu, education, sports];
 
 export const tabButtonAnimation = function () {
@@ -101,4 +103,10 @@ export const renderTabTexts = function () {
     // tabButtons[1].style.opacity = 1;
     tabs__containerTextInfo.insertAdjacentHTML("beforeend", markUpThird);
   });
+};
+
+export const slogenAnimation = function () {
+  setTimeout(() => {
+    sectionSlogen.classList.add("section__slogen--active");
+  }, 2000);
 };

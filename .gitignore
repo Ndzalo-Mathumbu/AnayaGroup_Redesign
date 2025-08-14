@@ -16,3 +16,5 @@ yarn-error.log*
 
 # VS Code settings
 .vscode/
+
+.parcel-cache/
